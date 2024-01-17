@@ -60,25 +60,32 @@ Neste projeto utilizaremos o gerenciador de dependências `Maven`.
 
     - Receber o número da conta bancária (apenas números) no console (terminal) do sistema.
     - Rejeitar valores não numéricos com a mensagem: `Número da conta inválido!`
-    - Caso a conta seja válida, mostrar como resultado a conta com a formatação padrão, utilizando a implementação feita no requisito anterior. A conta deve ser mostrada seguindo o padrão de mensagem `Número da conta: XXXXXX` , onde `XXXXXX`  é o número da conta já formatado.
+    - Caso a conta seja válida, mostrar como resultado a conta com a formatação padrão,
+    utilizando a implementação feita no requisito anterior. A conta deve ser mostrada 
+    seguindo o padrão de mensagem 
+    `Número da conta: XXXXXX` , onde `XXXXXX`  é o número da conta já formatado.
 
-    **Dica**: há várias formas de se fazer a validação, mas a classe da biblioteca mencionada anteriormente pode ter métodos úteis para isso 😉
+    **Dica**: há várias formas de se fazer a validação, mas a classe da biblioteca 
+    mencionada anteriormente pode ter métodos úteis para isso 😉
 
     Por exemplo, 👓
 
-    Se a pessoa usuária informar a conta `448` no input do console, deverá obter como resultado um feedback ok:
+    Se a pessoa usuária informar a conta `448` no input do console,
+    deverá obter como resultado um feedback ok:
 
         Informe o número da conta:
         448
         Número da conta: 000448
 
-    No entanto, se a pessoa usuária informar a conta `1234567890` no input do console, deverá obter como resultado a mensagem de aviso:
+    No entanto, se a pessoa usuária informar a conta `1234567890` no input do console,
+    deverá obter como resultado a mensagem de aviso:
 
         Informe o número da conta:
         1234567890
         Número da conta: 567890
 
-    Caso seja informado um valor não numérico (por exemplo `12345-X`), uma mensagem validando deverá aparecer:
+    Caso seja informado um valor não numérico (por exemplo `12345-X`),
+    uma mensagem validando deverá aparecer:
 
         Informe o número da conta: 
         12345-X
